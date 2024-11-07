@@ -12,4 +12,6 @@ class Post extends Model
 
     protected $fillable = ['title'];
 
+        public function published_at()
+    
 }
